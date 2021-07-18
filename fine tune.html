@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fine Tune</title>
+    <script src="https://kit.fontawesome.com/7c7dcfab0a.js" crossorigin="anonymous"></script>
+</head>
+<style>
+     form{
+    width:550px;
+    margin:auto;
+    padding:20px;
+    font-size: 20px;
+    font-family:sans-serif;
+    background: lightgreen;
+    color:white;
+    }
+    .rc2{
+        width:550px;
+        margin-top:21px;
+        background-color:lightgreen;
+        font-style: normal;
+        font-weight: 200;
+        text-align:left;
+    }
+    
+    .navbar li{
+        color:white;
+        display:inline-block;
+    }
+    .navbar li a{
+        color:white;
+        text-decoration: none;
+        padding: 34px 23px;
+        display: inline;
+        text-align:left;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-style: normal;
+        }
+        input[type=message]{
+    width:60%;
+    padding:70px;
+    font-size: 20px;
+}
+.btn{
+    flex:auto;
+    width:30%;
+    margin-left:310px;
+    padding:10px;
+    font-size:15px;
+    cursor: pointer;
+}
+select{
+    font-size: 20px;
+    padding:5px;
+    background: rosybrown;
+}
+.next h3{
+    float:right;
+    position: absolute;
+    top:472px;
+    left:805px;
+}
+</style>
+<body>
+    <form action="">
+            Fine Tune:<br>
+            <div class="rc2">
+                <ul class="navbar">
+                    <li><a href="https://www.facebook.com/">Facebook</a></li>
+                    <li><a href="https://www.instagram.com/">Instagram</a></li>
+                    <li><a href="#">Youtube</a></li>
+                        </ul>   
+            </div>
+            Schedule:
+            <select name="month" id="">
+            <option value="month">January</option>
+            <option value="month">February</option>
+            <option value="month">March</option>
+            </select>
+            <select name="days" id="">
+                <option value="days">1</option>
+                <option value="days">2</option>
+                </select>
+                <select name="year" id="">
+                    <option value="year">1996</option>
+                    <option value="year">1997</option>
+                </select><br><br>
+                Content:<br>
+    <br><input type="message"placeholder="Enter your message"><br><br>
+    <button class="btn">Save As Draft</button><br>
+    <a href="https://www.facebook.com/"><i class="fab fa-facebook"></a></i>
+    <a href="https://www.instagram.com/"><i class="fab fa-instagram"></a></i>
+    <a href="https://in.linkedin.com/"><i class="fab fa-linkedin-in"></a></i>
+    <a href="https://twitter.com/?lang=en"><i class="fab fa-twitter"></a></i>
+    <a href="http://127.0.0.1:5500/SOCIAL%20LISTENING%20TOOLS/social%20channels.html"><h3>>>Back</h3></a>
+    <div class="next">
+        <a href="#"><h3>Next>></h3></a>
+    </div>
+    </form>
+</body>
+</html>
